@@ -1,0 +1,325 @@
+.body,
+html {
+  min-width: 1750px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 16px;
+  line-height: 170%;
+  font-family: "Forum", cursive;
+  color: white;
+
+  background: #3b181e;
+  background-image: url("/img/bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 1920px auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.container {
+  width: 1730px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+
+  border: 0;
+
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+
+.header {
+  margin-bottom: 180px;
+  padding-top: 90px;
+}
+
+
+.header__nav--wrapper {
+  display: flex;
+  align-items: flex-start;
+  align-items: flex-end;
+}
+
+
+.header__nav--menu {
+  display: flex;
+  flex-basis: 880px;
+  flex-wrap: wrap;
+  margin-left: 300px;
+
+  list-style: none;
+}
+
+.header__phone {
+  margin-left: auto;
+
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+}
+
+
+.header__nav--item {
+  margin-right: 60px;
+}
+
+.main__title {
+  width: 820px;
+  margin: 95px auto 80px auto;
+
+  font-size: 120px;
+  line-height: 132px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+
+
+.main-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 19px 30px 16px 30px;
+
+  font-size: 12px;
+  line-height: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+
+  border: 1px solid white;
+}
+
+.main-navigation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main-link {
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+
+  transform: translateX(100%) rotate(90deg);
+  transform-origin: 0 0;
+}
+
+.social-item {
+  padding: 0 0 10px 0;
+}
+
+.scrol__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.scrol {
+  height: 100%;
+  margin-top: -60px;
+}
+
+.promo {
+  margin-bottom: 225px;
+}
+
+.section-title {
+  font-size: 30px;
+  line-height: 33px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.catalog-title-shadow {
+  margin: 0;
+  padding: 0;
+
+  font-size: 220px;
+  line-height: 243px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+
+  opacity: 0.03;
+}
+
+.catalog-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  align-items: flex-start;
+  height: 1050px;
+  margin: -100px auto 0;
+  padding: 0 70px 0 110px;
+}
+
+.catalog-item {
+  flex-shrink: 0;
+  width: 330px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  padding: 10px 10px 15px 10px;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.catalog-item-title {
+  min-height: 54px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  line-height: 170%;
+  color: #ffffff;
+  text-transform: uppercase;
+  /* or 27px */
+  letter-spacing: 0.1em;
+
+  opacity: 0.9;
+}
+
+.catalog-item-link {
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.catalog-item-first-column {
+  order: 1;
+}
+
+.catalog-item-second-column {
+  order: 2;
+}
+
+.catalog-item-third-column {
+  order: 3;
+}
+
+.catalog-item-fourth-column {
+  order: 4;
+}
+
+
+.sales {
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+.sales-wrapper {
+  display: flex;
+  width: 1176px;
+  margin: 0 auto;
+}
+
+.sales-text-column {
+  width: 479px;
+  padding: 40px 4px 20px;
+}
+
+.sales-img-column {
+  width: 697px;
+}
+
+.sales-text {
+  margin: 0;
+  padding: 57px 50px 40px 0;
+
+  font-size: 18px;
+  line-height: 170%;
+}
+
+
+.section-title-big {
+  margin: 0;
+
+  font-size: 50px;
+  line-height: 55px;
+  text-align: start;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+
+
+.portfolio {
+  padding-top: 210px;
+  padding-bottom: 20px;
+}
+
+.portfolio-wrapper {
+  display: flex;
+}
+
+.portfolio-img-column {
+  width: 996px;
+  flex-shrink: 0;
+}
+
+.portfolio-text-column {
+  padding: 120px 5px 20px 115px;
+  width: 723px;
+}
+
+.photo-preview-list {
+  padding: 113px 0 0 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.photo-preview-item {
+  margin-right: 20px;
+  
+}
+
+.certificates {
+  padding-top: 227px;
+  padding-bottom: 40px;
+}
+
+.certificates-list {
+  padding: 0;
+  margin: 80px 0 0 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.certificates-item-big {
+  width: 420px;
+  padding-bottom: 98px;
+  
+}
